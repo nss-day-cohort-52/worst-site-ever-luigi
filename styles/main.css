@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     border: 1px dotted purple; 
 }
@@ -45,3 +46,39 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+=======
+* {
+    background-color: greenyellow;
+}
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+.shrink {
+    border: 5px solid black;
+    animation: grow-and-shrink 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+.grow {
+    border: 5px solid black;
+    animation: grow-and-shrink 1000ms;
+    animation-timing-function: ease-linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+h4 {
+    text-align: center;
+}
+
+>>>>>>> 0df81d4c40f77085c14078bf2e3dccdf2b302e5b
