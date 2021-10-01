@@ -1,34 +1,47 @@
 * {
-    background-color: greenyellow;
+    border: 1px dotted purple; 
 }
-@keyframes grow-and-shrink {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.5);
-    }
+
+.main {
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.header {
+    text-align: center;
+    color: #C724B1; 
+    font-size: 100px;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
+}
+
+.section1 {
+    flex: 1
+}
+
+.section2 {
+    flex: 1
+}
+
+.spinner {
+    display: block;
+    width: 32px;
+    height: 32px;
   }
 
-.shrink {
-    border: 5px solid black;
-    animation: grow-and-shrink 2000ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  .clockwise:hover {
+    -webkit-animation:spin 4s linear    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-
-
-.grow {
-    border: 5px solid black;
-    animation: grow-and-shrink 1000ms;
-    animation-timing-function: ease-linear;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
+.counterclockwise:hover {
+    -webkit-animation:spin 1s linear    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
 }
-
-h4 {
-    text-align: center;
-}
-
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
