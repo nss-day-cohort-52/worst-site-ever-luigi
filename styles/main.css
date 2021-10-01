@@ -37,9 +37,6 @@ h4 {
     margin-top: 300px;
     position: relative;
 }
-* {
-    border: 1px dotted purple; 
-}
 
 .main {
     display:flex;
