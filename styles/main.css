@@ -2,6 +2,7 @@
 * {
   background-color: greenyellow;
 }
+
 @keyframes grow-and-shrink {
   0% {
     transform: scale(1);
@@ -19,8 +20,6 @@
   animation-direction: alternate;
   position: relative; 
 }
-
-
 
 .grow {
   border: 5px solid black;
@@ -50,12 +49,6 @@ h4 {
   background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
 
-.footer {
-  text-align: center;
-  color: #C724B1; 
-  font-size: 40px;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
-}
 
 /* Bordered form */
 .form {
@@ -112,73 +105,9 @@ h4 {
   padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-
-
-  .clockwise:hover {
-    -webkit-animation:spin 4s linear    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-.counterclockwise:hover {
-  -webkit-animation:spin 1s linear    -webkit-animation:spin 1s linear infinite;
-  -moz-animation:spin 1s linear infinite;
-  animation:spin 1s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
-
-
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+.footer {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  color: #C724B1; 
+  font-size: 40px;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
-
-* {
-  background-color: greenyellow;
-}
-@keyframes grow-and-shrink {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}
-
-.shrink {
-  border: 5px solid black;
-  animation: grow-and-shrink 2000ms;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.grow {
-  border: 5px solid black;
-  animation: grow-and-shrink 1000ms;
-  animation-timing-function: ease-linear;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-}
-
-
