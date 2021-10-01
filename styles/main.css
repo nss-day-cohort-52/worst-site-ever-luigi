@@ -57,5 +57,33 @@ h4 {
 	}
 }
 
+svg{
+  width: 0;
+  height: 0;
+}
 
+h5{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  filter: url(#wavy);
+  color: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
 
