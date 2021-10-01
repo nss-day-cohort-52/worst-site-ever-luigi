@@ -50,13 +50,20 @@ h4 {
     background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
 
+.footer {
+  text-align: center;
+  color: #C724B1; 
+  font-size: 40px;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
+}
+
 /* Bordered form */
-form {
+.form {
   border: 3px solid #f1f1f1;
 }
 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+.input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -66,7 +73,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.button {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -77,7 +84,7 @@ button {
 }
 
 /* Add a hover effect for buttons */
-button:hover {
+.button:hover {
   opacity: 0.8;
 }
 
@@ -100,7 +107,7 @@ button:hover {
 }
 
 /* The "Forgot password" text */
-span.psw {
+.span.psw {
   float: right;
   padding-top: 16px;
 }
@@ -166,19 +173,11 @@ span.psw {
     animation-direction: alternate;
 }
 
-
-
 .grow {
     border: 5px solid black;
     animation: grow-and-shrink 1000ms;
     animation-timing-function: ease-linear;
     animation-iteration-count: infinite;
     animation-direction: reverse;
-}
-
-.footer {
-  color: #C724B1; 
-  font-size: 40px;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
 
