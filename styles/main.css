@@ -11,20 +11,6 @@
     background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
 
-.section1 {
-    flex: 1
-}
-
-.section2 {
-    flex: 1
-}
-
-.spinner {
-    display: block;
-    width: 32px;
-    height: 32px;
-  }
-
   .clockwise:hover {
     -webkit-animation:spin 4s linear    -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
