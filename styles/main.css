@@ -123,4 +123,130 @@
   color: #C724B1; 
   font-size: 40px;
   background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
+
+
+* {
+  background-color: greenyellow;
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.shrink {
+  border: 5px solid black;
+  animation: grow-and-shrink 2000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative; 
+}
+
+.grow {
+  border: 5px solid black;
+  animation: grow-and-shrink 1000ms;
+  animation-timing-function: ease-linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  position: relative;
+}
+
+h4 {
+  text-align: center;
+  line-height: 200px;
+  margin-top: 300px;
+  position: relative;
+}
+
+.main {
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+.header h1 {
+  text-align: center;
+  color: #C724B1; 
+  font-size: 40px;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
+}
+
+
+/* Bordered form */
+.form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+.span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.footer {
+  text-align: center;
+  color: #C724B1; 
+  font-size: 40px;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
+}
+
+a {
+  text-decoration: none;
+}
+
+.pictures {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  z-index: 2;
 }
