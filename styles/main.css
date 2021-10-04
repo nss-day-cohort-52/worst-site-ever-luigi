@@ -111,3 +111,16 @@ h4 {
   font-size: 40px;
   background-image: url("https://as2.ftcdn.net/v2/jpg/04/54/79/41/1000_F_454794169_ayADv4nh4xNs1enNzIxmvqRnLr0iHjnm.jpg")
 }
+
+a {
+  text-decoration: none;
+}
+
+.pictures {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  z-index: 2;
+}
